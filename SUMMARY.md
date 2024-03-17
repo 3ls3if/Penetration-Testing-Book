@@ -46,6 +46,7 @@
 * [📳 Enumerating IoT Devices](internet-of-things/enumerating-iot-devices.md)
 * [😷 Dissecting Embedded Devices](internet-of-things/dissecting-embedded-devices.md)
 * [👨‍💻 Exploiting Embedded Devices](internet-of-things/exploiting-embedded-devices.md)
+* [🎮 Dynamic Analysis with Emulation](internet-of-things/dynamic-analysis-with-emulation.md)
 
 ## 🚔 Automotive Pentesting
 
