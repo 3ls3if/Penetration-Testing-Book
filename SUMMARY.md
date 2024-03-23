@@ -56,3 +56,4 @@
 ## 🗳️ Container Pentesting
 
 * [🐳 docker pentesting](container-pentesting/docker-pentesting.md)
+* [☸️ kubernetes pentesting](container-pentesting/kubernetes-pentesting.md)
