@@ -75,4 +75,3 @@ cd ~/ && git clone --single --depth=1 --branch=master https://github.com/ubfx/Bi
 ## References
 
 * [Ghidra Cheatsheet](https://ghidra-sre.org/CheatSheet.html)
-*
