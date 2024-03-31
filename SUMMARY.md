@@ -26,6 +26,7 @@
 * [🚛 Sensitive Data Exposure Cheat Sheet](web-application-pentesting/sensitive-data-exposure-cheat-sheet.md)
 * [🐴 wordpress pentesting](web-application-pentesting/wordpress-pentesting.md)
 * [❌ xxe attack](web-application-pentesting/xxe-attack.md)
+* [🔓 Authentication Bypass](web-application-pentesting/authentication-bypass.md)
 
 ## 🔁 Reverse Engineering
 
