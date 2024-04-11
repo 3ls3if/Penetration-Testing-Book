@@ -28,6 +28,7 @@
 * [❌ xxe attack](web-application-pentesting/xxe-attack.md)
 * [🔓 Authentication Bypass](web-application-pentesting/authentication-bypass.md)
 * [🕸️ Webshells](web-application-pentesting/webshells.md)
+* [🏂 SSRF](web-application-pentesting/ssrf.md)
 
 ## 🔁 Reverse Engineering
 
