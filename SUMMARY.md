@@ -27,6 +27,7 @@
 * [🐴 wordpress pentesting](web-application-pentesting/wordpress-pentesting.md)
 * [❌ xxe attack](web-application-pentesting/xxe-attack.md)
 * [🔓 Authentication Bypass](web-application-pentesting/authentication-bypass.md)
+* [🕸️ Webshells](web-application-pentesting/webshells.md)
 
 ## 🔁 Reverse Engineering
 
