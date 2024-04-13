@@ -10,7 +10,7 @@
 
 * [🚪 LInux-Privilege-Escalation](linux-privilege-escalation/linux-privilege-escalation.md)
 
-## 🔱 Linux Exploit Development Tools
+## 🐧 Linux Exploit Development Tools
 
 * [🔧 Exploit Development Tools](linux-exploit-development-tools/exploit-development-tools.md)
 
