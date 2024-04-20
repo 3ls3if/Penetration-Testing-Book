@@ -60,6 +60,7 @@
 
 * [🐳 docker pentesting](container-pentesting/docker-pentesting.md)
 * [🐋 docker container escape](container-pentesting/docker-container-escape.md)
+* [🐋 Docker CVE's](container-pentesting/docker-cves.md)
 * [☸️ kubernetes pentesting](container-pentesting/kubernetes-pentesting.md)
 
 ## 🌆 SMART CITY PENTESTING
