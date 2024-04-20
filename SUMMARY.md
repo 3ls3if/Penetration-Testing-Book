@@ -1,14 +1,14 @@
 # Table of contents
 
-* [📘 Penetration Testing Book](README.md)
+* [📘 PENETRATION TESTING BOOK](README.md)
 
 ## 🪟 Windows Privilege Escalation
 
-* [🚪 Windows-Privilege-Escalation](windows-privilege-escalation/windows-privilege-escalation.md)
+* [🏄‍♂️ Windows-Privilege-Escalation](windows-privilege-escalation/windows-privilege-escalation.md)
 
 ## 🐧 Linux Privilege Escalation
 
-* [🚪 LInux-Privilege-Escalation](linux-privilege-escalation/linux-privilege-escalation.md)
+* [🏄‍♀️ LInux-Privilege-Escalation](linux-privilege-escalation/linux-privilege-escalation.md)
 
 ## 🐧 Linux Exploit Development Tools
 
@@ -61,3 +61,7 @@
 * [🐳 docker pentesting](container-pentesting/docker-pentesting.md)
 * [🐋 docker container escape](container-pentesting/docker-container-escape.md)
 * [☸️ kubernetes pentesting](container-pentesting/kubernetes-pentesting.md)
+
+## 🌆 SMART CITY PENTESTING
+
+* [Page 1](smart-city-pentesting/page-1.md)
