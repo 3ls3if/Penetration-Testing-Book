@@ -5,6 +5,7 @@
 ## 🪟 Windows Privilege Escalation
 
 * [🏄‍♂️ Windows-Privilege-Escalation](windows-privilege-escalation/windows-privilege-escalation.md)
+* [🛠️ Windows Exploit Suggester](windows-privilege-escalation/windows-exploit-suggester.md)
 
 ## 🐧 Linux Privilege Escalation
 
