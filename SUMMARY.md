@@ -67,3 +67,7 @@
 ## 🌆 SMART CITY PENTESTING
 
 * [Page 1](smart-city-pentesting/page-1.md)
+
+## 🪦 ACTIVE DIRECTORY PENTESTING
+
+* [active directory pentest](active-directory-pentesting/active-directory-pentest.md)
