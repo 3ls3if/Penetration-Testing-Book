@@ -1,10 +1,10 @@
-# 📘 Penetration Testing Book
+# 📘 PENETRATION TESTING BOOK
 
 > <mark style="color:purple;">**Penetration testing is not about running scanners; it's a methodology.**</mark>
 
 ## About the Author
 
-> He likes to travel solo and learn new things.
+> He likes to travel and learn new things.
 
 <figure><img src=".gitbook/assets/IMG-20221111-WA0027.jpg" alt=""><figcaption><p>A pic of him looking at the blue sky!</p></figcaption></figure>
 
