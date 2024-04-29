@@ -70,4 +70,4 @@
 
 ## 🪦 ACTIVE DIRECTORY PENTESTING
 
-* [active directory pentest](active-directory-pentesting/active-directory-pentest.md)
+* [Active Directory Post Exploitation](active-directory-pentesting/active-directory-post-exploitation.md)
