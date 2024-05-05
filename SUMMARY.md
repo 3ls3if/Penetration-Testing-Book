@@ -30,6 +30,7 @@
 * [🔓 Authentication Bypass](web-application-pentesting/authentication-bypass.md)
 * [🕸️ Webshells](web-application-pentesting/webshells.md)
 * [🏂 SSRF](web-application-pentesting/ssrf.md)
+* [🐈‍⬛ Git Exposure](web-application-pentesting/git-exposure.md)
 
 ## 🔁 Reverse Engineering
 
