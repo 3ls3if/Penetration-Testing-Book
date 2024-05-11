@@ -72,3 +72,7 @@
 ## 🪦 ACTIVE DIRECTORY PENTESTING
 
 * [🌌 Active Directory Post Exploitation](active-directory-pentesting/active-directory-post-exploitation.md)
+
+## ☄️ Command and Control
+
+* [C2 In The Cloud](command-and-control/c2-in-the-cloud.md)
