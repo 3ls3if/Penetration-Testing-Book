@@ -75,4 +75,4 @@
 
 ## ☄️ Command and Control
 
-* [C2 In The Cloud](command-and-control/c2-in-the-cloud.md)
+* [🌩️ C2 In The Cloud](command-and-control/c2-in-the-cloud.md)

@@ -1,4 +1,4 @@
-# C2 In The Cloud
+# 🌩️ C2 In The Cloud
 
 ## Deploy Covenant C2 in the Cloud
 
