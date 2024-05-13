@@ -1,5 +1,9 @@
 # 🔁 C2 HTTP Redictor
 
+A C2 redirector is a host that forwards traffic to a real C2 server, acting as a reverse proxy. It's considered best practice to not expose a C2 server directly, so redirectors receive and filter incoming traffic based on specific rules.
+
+Covenant is an open source .NET command and control framework that can run on Windows, MacOS, and Linux. It's designed to be a collaborative C2 for red teamers and make .NET tradecraft easier.
+
 ## Install Linux Host (Redirector)
 
 We have installed the Covenant C2 on AWS Windows Instance. Now we will use a different linux instance as our C2 redirector.
@@ -110,3 +114,15 @@ Send the payload to the victim and when the victim runs the payload we will be a
 ## End
 
 When the victim runs the netstat command, he will only see the redirector ip address, when he visits that ip address it will show the default apache2 webpage. Now the real C2 is hidden from victim and even if victim blocks the redirector ip address then we can use an another machine as a redirector.
+
+
+
+***
+
+## REFERENCES
+
+* [https://ditrizna.medium.com/design-and-setup-of-c2-traffic-redirectors-ec3c11bd227d](https://ditrizna.medium.com/design-and-setup-of-c2-traffic-redirectors-ec3c11bd227d)
+* [https://youtu.be/1uh5-OzBEqM](https://youtu.be/1uh5-OzBEqM)
+* [https://howto.thec2matrix.com/attack-infrastructure/redirectors](https://howto.thec2matrix.com/attack-infrastructure/redirectors)
+* [https://versprite.com/blog/the-devops-approach-to-automating-c2-infrastructure-part-one/](https://versprite.com/blog/the-devops-approach-to-automating-c2-infrastructure-part-one/)
+* [https://riccardoancarani.github.io/2019-09-28-modern-c2-infra/](https://riccardoancarani.github.io/2019-09-28-modern-c2-infra/)
