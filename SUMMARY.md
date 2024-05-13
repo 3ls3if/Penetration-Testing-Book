@@ -77,3 +77,4 @@
 
 * [🌩️ C2 In The Cloud](command-and-control/c2-in-the-cloud.md)
 * [🔁 C2 HTTP Redictor](command-and-control/c2-http-redictor.md)
+* [☸️ Havoc C2](command-and-control/havoc-c2.md)
