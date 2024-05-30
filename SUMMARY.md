@@ -31,6 +31,7 @@
 * [🕸️ Webshells](web-application-pentesting/webshells.md)
 * [🏂 SSRF](web-application-pentesting/ssrf.md)
 * [🐈‍⬛ Git Exposure](web-application-pentesting/git-exposure.md)
+* [✖️ XSS WAF Bypass](web-application-pentesting/xss-waf-bypass.md)
 
 ## 🔁 Reverse Engineering
 
