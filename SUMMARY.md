@@ -83,3 +83,4 @@
 ## 🦋 PENTESTING CISCO DEVICES
 
 * [🔦 Cisco-Torch : Enumeration](pentesting-cisco-devices/cisco-torch-enumeration.md)
+* [Password Attack (Type 5)](pentesting-cisco-devices/password-attack-type-5.md)
