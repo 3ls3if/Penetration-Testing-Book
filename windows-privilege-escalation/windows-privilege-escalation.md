@@ -343,3 +343,5 @@ nt authority\system
 * [https://pentest.whitehatlabs.tech/windows-privilege-escalation/windows-privilege-escalation](https://pentest.whitehatlabs.tech/windows-privilege-escalation/windows-privilege-escalation)
 * [https://viperone.gitbook.io/pentest-everything/writeups/tryhackme/windows/relevant](https://viperone.gitbook.io/pentest-everything/writeups/tryhackme/windows/relevant)
 * [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS/winPEASbat](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS/winPEASbat)
+* [https://medium.com/ctf-writeups/bounty-write-up-htb-9b01c934dfd2](https://medium.com/ctf-writeups/bounty-write-up-htb-9b01c934dfd2)
+
