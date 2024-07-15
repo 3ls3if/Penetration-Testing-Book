@@ -34,3 +34,43 @@ Run the script using the below command:
 wscript Hello.vbs
 ```
 
+**VBScript to run executable files**
+
+The following vbs code is to invoke the Windows calculator, proof that we can execute .exe files using the Windows native engine (WSH).
+
+```
+Set shell = WScript.CreateObject("Wscript.Shell")
+shell.Run("C:\Windows\System32\calc.exe " & WScript.ScriptFullName),0,True
+```
+
+We create an object of the WScript library using CreateObject to call the execution payload. Then, we utilize the Run method to execute the payload. For this task, we will run the Windows calculator calc.exe.&#x20;
+
+To execute the vbs file, we can run it using the wscript as follows,&#x20;
+
+```
+wscript payload.vbs
+```
+
+We can also run it via cscript as follows,
+
+```
+cscript.exe payload.vbs
+```
+
+As a result, the Windows calculator will appear on the Desktop.
+
+Another trick. If the VBS files are blacklisted, then we can rename the file to .txt file and run it using wscript as follows,\
+
+
+```
+wscript /e:VBScript payload.txt
+```
+
+The result will be as exact as executing the vbs files, which run the calc.exe binary.\
+
+
+\
+
+
+***
+
