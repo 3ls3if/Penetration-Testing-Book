@@ -68,7 +68,7 @@
 
 ## 🌆 SMART CITY PENTESTING
 
-* [Page 1](smart-city-pentesting/page-1.md)
+* [To do](smart-city-pentesting/to-do.md)
 
 ## 🪦 ACTIVE DIRECTORY PENTESTING
 
@@ -84,3 +84,9 @@
 
 * [🔦 Cisco-Torch : Enumeration](pentesting-cisco-devices/cisco-torch-enumeration.md)
 * [🔓 Password Attack (Type 5)](pentesting-cisco-devices/password-attack-type-5.md)
+
+***
+
+* [🦹‍♀️ RED TEAMING](red-teaming/README.md)
+  * [🦕 Initial Access](red-teaming/initial-access/README.md)
+    * [⚔️ Weaponization](red-teaming/initial-access/weaponization.md)
