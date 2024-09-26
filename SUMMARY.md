@@ -53,6 +53,8 @@
 * [😷 Dissecting Embedded Devices](internet-of-things/dissecting-embedded-devices.md)
 * [👨‍💻 Exploiting Embedded Devices](internet-of-things/exploiting-embedded-devices.md)
 * [🎮 Dynamic Analysis with Emulation](internet-of-things/dynamic-analysis-with-emulation.md)
+* [☮️ Firmware Analysis](internet-of-things/firmware-analysis/README.md)
+  * [Bootloader testing](internet-of-things/firmware-analysis/bootloader-testing.md)
 
 ## 🚔 Automotive Pentesting
 
