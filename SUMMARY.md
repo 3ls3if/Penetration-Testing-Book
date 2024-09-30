@@ -57,6 +57,9 @@
 * [☮️ Firmware Analysis](internet-of-things/firmware-analysis/README.md)
   * [Firmware Analysis](internet-of-things/firmware-analysis/firmware-analysis.md)
   * [Bootloader testing](internet-of-things/firmware-analysis/bootloader-testing.md)
+* [Drone Pentesting](internet-of-things/drone-pentesting/README.md)
+  * [Common Attacks](internet-of-things/drone-pentesting/common-attacks.md)
+  * [Threat Categories](internet-of-things/drone-pentesting/threat-categories.md)
 
 ## 🚔 Automotive Pentesting
 
