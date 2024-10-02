@@ -55,6 +55,7 @@
 * [🧙 Brute Force Attacks](network-pentesting-101/brute-force-attacks/README.md)
   * [Brute Forcing Cheat sheet](network-pentesting-101/brute-force-attacks/brute-forcing-cheat-sheet.md)
 * [🛂 Post Exploitation](network-pentesting-101/post-exploitation.md)
+* [Firewall Pentesting](network-pentesting-101/firewall-pentesting.md)
 
 ## 🔅 Internet of Things
 
