@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1658388012384-23bc0c66e3ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxjeWJlciUyMHNlY3VyaXR5fGVufDB8fHx8MTcyNzg3MzYwOXww&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # 📘 PENETRATION TESTING BOOK
 
 > <mark style="color:purple;">**Penetration testing is not about running scanners; it's a methodology.**</mark>
