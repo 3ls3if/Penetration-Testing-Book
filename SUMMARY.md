@@ -1,11 +1,19 @@
 # Table of contents
 
 * [📘 PENETRATION TESTING BOOK](README.md)
+* [☮️ PENTESTING PROCESS](pentesting-process/README.md)
+  * [1️⃣ Pre-Engagement](pentesting-process/pre-engagement.md)
+  * [2️⃣ Intelligence Gathering / Reconnaissance](pentesting-process/intelligence-gathering-reconnaissance.md)
+  * [3️⃣ Threat Modeling](pentesting-process/threat-modeling.md)
+  * [4️⃣ Vulnerability Assessment](pentesting-process/vulnerability-assessment.md)
+  * [5️⃣ Exploitation](pentesting-process/exploitation.md)
+  * [6️⃣ Post-Exploitation](pentesting-process/post-exploitation.md)
+  * [7️⃣ Reporting](pentesting-process/reporting.md)
 
 ## 🪟 Windows Privilege Escalation
 
-* [🏄‍♂️ Windows-Privilege-Escalation](windows-privilege-escalation/windows-privilege-escalation.md)
 * [🛠️ Windows Exploit Suggester](windows-privilege-escalation/windows-exploit-suggester.md)
+* [🏄‍♂️ Windows-Privilege-Escalation](windows-privilege-escalation/windows-privilege-escalation.md)
 
 ## 🐧 Linux Privilege Escalation
 
