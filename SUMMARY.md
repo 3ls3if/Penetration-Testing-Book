@@ -84,7 +84,8 @@
 
 ## 🌆 SMART CITY PENTESTING
 
-* [To do](smart-city-pentesting/to-do.md)
+* [♾️ Protocols](smart-city-pentesting/protocols/README.md)
+  * [LoRaWan](smart-city-pentesting/protocols/lorawan.md)
 
 ## 🪦 ACTIVE DIRECTORY PENTESTING
 
