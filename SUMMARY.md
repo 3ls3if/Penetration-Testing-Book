@@ -85,7 +85,7 @@
 ## 🌆 SMART CITY PENTESTING
 
 * [♾️ Protocols](smart-city-pentesting/protocols/README.md)
-  * [LoRaWan](smart-city-pentesting/protocols/lorawan.md)
+  * [LoRa-WAN](smart-city-pentesting/protocols/lora-wan.md)
 
 ## 🪦 ACTIVE DIRECTORY PENTESTING
 
