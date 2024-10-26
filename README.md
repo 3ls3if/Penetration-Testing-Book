@@ -26,7 +26,7 @@ layout:
 
 > He likes to travel and learn new things.
 
-<figure><img src=".gitbook/assets/output-onlinepngtools.png" alt="" width="375"><figcaption><p><strong>Ahom Cyber Security Society</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/output-onlinepngtools (1) (1).png" alt="" width="431"><figcaption><p><strong>Ahom Cyber Security Society</strong></p></figcaption></figure>
 
 ## Connect with Rohan
 
