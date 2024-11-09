@@ -69,6 +69,7 @@
 * [Drone Pentesting](internet-of-things/drone-pentesting/README.md)
   * [Common Attacks](internet-of-things/drone-pentesting/common-attacks.md)
   * [Threat Categories](internet-of-things/drone-pentesting/threat-categories.md)
+* [Hacking Vending Machines](internet-of-things/hacking-vending-machines.md)
 
 ## 🚔 Automotive Pentesting
 
