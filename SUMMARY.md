@@ -104,8 +104,11 @@
 * [🔦 Cisco-Torch : Enumeration](pentesting-cisco-devices/cisco-torch-enumeration.md)
 * [🔓 Password Attack (Type 5)](pentesting-cisco-devices/password-attack-type-5.md)
 
-***
+## RED TEAMING
 
-* [🦹‍♀️ RED TEAMING](red-teaming/README.md)
-  * [🦕 Initial Access](red-teaming/initial-access/README.md)
-    * [⚔️ Weaponization](red-teaming/initial-access/weaponization.md)
+* [🦕 Initial Access](red-teaming/initial-access/README.md)
+  * [⚔️ Weaponization](red-teaming/initial-access/weaponization.md)
+
+## PHYSICAL PEN-TESTING
+
+* [Page 1](physical-pen-testing/page-1.md)
