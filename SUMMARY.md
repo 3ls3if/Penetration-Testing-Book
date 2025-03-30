@@ -108,7 +108,3 @@
 
 * [🦕 Initial Access](red-teaming/initial-access/README.md)
   * [⚔️ Weaponization](red-teaming/initial-access/weaponization.md)
-
-## PHYSICAL PEN-TESTING
-
-* [Page 1](physical-pen-testing/page-1.md)
