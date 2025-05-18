@@ -1,4 +1,4 @@
-# Mythic C2
+# 🦄 Mythic C2
 
 ## Mythic
 
