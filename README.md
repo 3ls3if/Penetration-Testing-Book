@@ -24,9 +24,7 @@ layout:
 
 ## About the Author
 
-> **Update:** This blog posts are now managed by **Ahom Cyber Security Society (ACSS)** members.
-
-<figure><img src=".gitbook/assets/output-onlinepngtools (1) (1).png" alt="" width="431"><figcaption><p><strong>Ahom Cyber Security Society</strong></p></figcaption></figure>
+<figure><img src=".gitbook/assets/github_PP2.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Connect with Rohan
 
