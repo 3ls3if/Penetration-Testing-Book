@@ -109,3 +109,5 @@
 
 * [🦕 Initial Access](red-teaming/initial-access/README.md)
   * [⚔️ Weaponization](red-teaming/initial-access/weaponization.md)
+* [🔥 Frameworks](red-teaming/frameworks/README.md)
+  * [Atomic Red Team](red-teaming/frameworks/atomic-red-team.md)
