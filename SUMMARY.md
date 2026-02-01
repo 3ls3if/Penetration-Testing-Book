@@ -99,6 +99,7 @@
 * [☸️ Havoc C2](command-and-control/havoc-c2.md)
 * [⛎ Sliver C2](command-and-control/sliver-c2.md)
 * [🦄 Mythic C2](command-and-control/mythic-c2.md)
+* [Villain C2](command-and-control/villain-c2.md)
 
 ## 🦋 PENTESTING CISCO DEVICES
 
